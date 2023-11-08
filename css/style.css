@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 @import url('phone.css');
+@import url('background.css');
 
 *{
     margin:0;
@@ -8,3 +9,36 @@
     font-family: 'Rubik', sans-serif;
 }
 
+a{color:hsl(293, 100%, 63%)}
+a:hover{color:hsl(264, 100%, 61%)}
+
+body{
+    max-width: 1200px;
+    margin:5rem auto;
+}
+main{
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+main > aside{
+    order:1;
+    margin:auto
+}
+
+main > article{
+    order:2;
+    margin:auto;
+    padding:10rem
+}
+h1{
+    font-size:3rem;
+    padding-bottom:1rem;
+    color: hsl(271, 36%, 24%)
+}
+
+main > article p {
+    color:hsl(270, 7%, 64%);
+    line-height: 1.75rem;
+}

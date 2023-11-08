@@ -4,8 +4,8 @@ aside{
     border-radius: 3rem;
     background: hsl(270, 20%, 96%);
     overflow: hidden;
-    max-width: 375px;
-    min-width: 375px;
+    max-width: 350px;
+    min-width: 350px;
 }
 aside img{
     border-radius: 1rem;
@@ -35,9 +35,9 @@ Heading
 /* white phone thingy */
 .phoneHeading .phoneDesign{
     height:15px;
-    width:200px;
+    width:180px;
     margin:0 auto 1rem auto;
-    border-radius:0 0 1rem 1rem;
+    border-radius:0 0 1.5rem 1.5rem;
     background:#fff;
 }
 
@@ -49,14 +49,14 @@ Heading
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap:20px;
+    gap:10px;
     padding: 0rem 1rem 1rem 1rem;
 }
 
 .phoneHeading > div > div{
     flex:1;
     display: flex;
-    gap:20px;
+    gap:10px;
 }
 
 
@@ -99,10 +99,19 @@ Content
 ==========================
 =========
 */
-.chat{
+.chat > div {
     padding:.75rem;
+    min-height:500px;
+    max-height:500px;
+    overflow: auto;
 }
 
+.chat ::-webkit-scrollbar {width: 10px;}
+.chat ::-webkit-scrollbar-track {background:none;}
+.chat ::-webkit-scrollbar-thumb {
+    background: linear-gradient(160deg, hsl(264, 100%, 61%) 0%, hsl(293, 100%, 63%) 100%);
+    border-radius: 2rem;
+}
 
 /* Chat bubble format */
 .leftChat, .rightChat{
@@ -118,7 +127,7 @@ Content
     display:inline-flex;
     border-radius: 1rem;
     margin-bottom: .75rem;
-    font-size:14px;
+    font-size:12px;
 }
 .bubbleImages{
     display: grid;
@@ -170,7 +179,7 @@ Content
 }
 
 .priceChoice :nth-child(1){
-    font-size:20px;
+    font-size:16px;
     opacity: 0.3;
 }
 .priceChoice :nth-child(2){
@@ -179,9 +188,9 @@ Content
     flex:1;
 }
 .priceChoice :nth-child(3){
-    font-size:20px;
+    font-size:216x;
     font-weight: 700;
-    padding-right:1rem;
+    padding-right:.5rem;
 }
 
 
@@ -205,6 +214,7 @@ Send message
     justify-content: space-between;
     align-items: center;
     border-radius: 10rem;
+    margin:.75rem;
 }
 
 .sendMessage p{
@@ -218,4 +228,33 @@ Send message
     background: hsl(271, 36%, 24%);
     font-weight: 700;
     padding: 0.65rem .85rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+=========
+==========================
+CREDITS 
+==========================
+=========
+*/
+.attribution > *{
+    flex-direction: column;
+    font-size: 12px;
+}
+.attribution a{
+    font-size: 12px;
 }
