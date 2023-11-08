@@ -1,0 +1,221 @@
+aside{
+    border:1rem solid #fff;
+    box-shadow:5px 10px 3rem #00000038;
+    border-radius: 3rem;
+    background: hsl(270, 20%, 96%);
+    overflow: hidden;
+    max-width: 375px;
+    min-width: 375px;
+}
+aside img{
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+/* 
+=========
+==========================
+Heading 
+==========================
+=========
+*/
+.phoneHeading{
+    border-radius:0 0 .5rem .5rem;
+    box-shadow:0 0 1rem #00000060;
+    background: hsl(264, 100%, 61%);
+    background: linear-gradient(90deg, hsl(264, 100%, 61%) 0%, hsl(293, 100%, 63%) 100%);
+}
+
+
+/* white phone thingy */
+.phoneHeading .phoneDesign{
+    height:15px;
+    width:200px;
+    margin:0 auto 1rem auto;
+    border-radius:0 0 1rem 1rem;
+    background:#fff;
+}
+
+
+/* User header */
+.phoneHeading > div{
+    color:#fff;
+    border-radius:0 0 .5rem .5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.phoneHeading > div > div{
+    flex:1;
+    display: flex;
+    gap:20px;
+}
+
+
+/* image */
+.phoneHeading img {
+    width:40px;
+    height:40px;
+    border-radius:3rem;
+    border:.2rem solid #fff;
+}
+
+
+/* Name and availability */
+.phoneHeading h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.phoneHeading p{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.phoneHeading > div > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px
+}
+
+
+
+
+
+
+
+/* 
+=========
+==========================
+Content 
+==========================
+=========
+*/
+.chat{
+    padding:.75rem;
+}
+
+
+/* Chat bubble format */
+.leftChat, .rightChat{
+    margin-bottom:.75rem;
+    display: flex;
+    flex-direction: column;
+}
+.rightChat{
+    align-items: end;
+}
+
+.bubbleFormat{
+    display:inline-flex;
+    border-radius: 1rem;
+    margin-bottom: .75rem;
+    font-size:14px;
+}
+.bubbleImages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    margin-bottom: .75rem;
+    max-width:75%!important;
+}
+.bubbleImages img{
+    box-shadow:0 10px 1rem #00000013;
+    width:100%;
+}
+
+
+/* Left chat */
+.leftChat .bubbleFormat{
+    background: #EDE5F4;
+    color:hsl(276, 55%, 52%);
+    padding:.75rem;
+    border-radius:1rem 1rem 1rem .3rem;
+    max-width:60%;
+}
+
+
+/* right chat */
+.rightChat .bubbleFormat{
+    background: #fff;
+    color:hsl(271, 15%, 43%);
+    padding:.75rem;
+    border-radius:1rem 1rem .3rem 1rem;
+    box-shadow:0 10px 1rem #00000013;
+    justify-items: end;
+    max-width:60%;
+}
+
+
+/* prices */
+.priceChoice{
+    color: #fff!important;
+    background: hsl(264, 100%, 61%);
+    background: linear-gradient(-90deg, hsl(264, 100%, 61%) 0%, hsl(293, 100%, 63%) 100%)!important;
+    padding:1rem;
+    margin-bottom: .75rem;
+    border-radius:1rem 1rem 1rem .3rem;
+    display: flex;
+    gap:10px;
+    max-width:70%!important;
+    align-items: center;
+}
+
+.priceChoice :nth-child(1){
+    font-size:20px;
+    opacity: 0.3;
+}
+.priceChoice :nth-child(2){
+    font-size:12px;
+    opacity: 0.7;
+    flex:1;
+}
+.priceChoice :nth-child(3){
+    font-size:20px;
+    font-weight: 700;
+    padding-right:1rem;
+}
+
+
+
+
+
+
+
+/* 
+=========
+==========================
+Send message
+==========================
+=========
+*/
+.sendMessage {
+    background:#fff;
+    color: #000;
+    padding:.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10rem;
+}
+
+.sendMessage p{
+    opacity: 0.2;
+    padding:0 1rem;
+}
+
+.sendMessage i{
+    border-radius: 10rem;
+    color: #fff;
+    background: hsl(271, 36%, 24%);
+    font-weight: 700;
+    padding: 0.65rem .85rem;
+}

@@ -10,65 +10,70 @@
 </head>
 <body>
 
-  <article>
-    <h1>Simple booking</h1>
-    <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-      discuss arrangements and make bookings. Once the walk has been completed you can rate 
-      your walker and book again all through the chat.</p>
-  </article>
-
-  <aside>
+  <main>
     <article>
-      <i class="fas fa-chevron-left"></i>
-      <div>
-        <img src="img/avatar.jpg" alt="Samuel Green's profile picture">
-        <div>
-          <h2>Samuel Green</h2>
-          <p>Available to Walk</p>
-        </div>
-      </div>
-      <i class="fas fa-ellipsis-v"></i>
+      <h1>Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.</p>
     </article>
-
-    <div>
-      <article>
-        <p>That sounds great. I'd be happy with that.</p>
-        <p>Could you send over some pictures of your dog, please?</p>
-      </article>
   
-      <article>
+    <aside>
+      <article class="phoneHeading">
+        <div class="phoneDesign"></div>
         <div>
-          <img src="img/dog-image-1.jpg" alt="Dog pucture 1">
-          <img src="img/dog-image-2.jpg" alt="Dog pucture 2">
-          <img src="img/dog-image-3.jpg" alt="Dog pucture 3">
-        </div>
-        <p>Here are a few pictures. She's a happy girl!</p>
-        <p>Can you make it?</p>
-      </article>
-      
-      <article>
-        <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
-
-        <div>
-          <i class="fa-regular fa-circle-dot"></i>
-          <p>30 minute walk</p>
-          <p>$29</p>
-        </div>
-
-        <div>
-          <i class="fa-regular fa-circle-dot"></i>
-          <p>1 hour walk</p>
-          <p>$49</p>
+          <i class="fas fa-chevron-left"></i>
+          <div>
+            <img src="img/avatar.jpg" alt="Samuel Green's profile picture">
+            <div>
+              <h2>Samuel Green</h2>
+              <p>Available to Walk</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
         </div>
       </article>
   
-      
-      <article>
-        <p>Type a message…</p>
-        <i class="fas fa-chevron-right"></i>
-      </article>
-    </div>
-  </aside>
+      <div class="chat">
+        <article  class="leftChat">
+          <p class="bubbleFormat">That sounds great. I'd be happy with that.</p>
+          <p class="bubbleFormat">Could you send over some pictures of your dog, please?</p>
+        </article>
+    
+        <article class="rightChat">
+          <div class="bubbleImages">
+            <img src="img/dog-image-1.jpg" alt="Dog pucture 1">
+            <img src="img/dog-image-2.jpg" alt="Dog pucture 2">
+            <img src="img/dog-image-3.jpg" alt="Dog pucture 3">
+          </div>
+          <p class="bubbleFormat">Here are a few pictures. She's a happy girl!</p>
+          <p class="bubbleFormat">Can you make it?</p>
+        </article>
+        
+        <article class="leftChat">
+          <p class="bubbleFormat">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+  
+          <div class="priceChoice">
+            <i class="fa-regular fa-circle-dot"></i>
+            <p>30 minute walk</p>
+            <p>$29</p>
+          </div>
+  
+          <div class="priceChoice">
+            <i class="fa-regular fa-circle-dot"></i>
+            <p>1 hour walk</p>
+            <p>$49</p>
+          </div>
+        </article>
+    
+        
+        <article class="sendMessage">
+          <p>Type a message…</p>
+          <i class="fas fa-chevron-right"></i>
+        </article>
+      </div>
+    </aside>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
