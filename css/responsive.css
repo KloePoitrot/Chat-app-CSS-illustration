@@ -1,0 +1,53 @@
+/*  */
+@media screen and (max-width:1427px) {
+    main > article{
+        padding:5rem!important
+    }
+}
+
+@media screen and (max-width:1285px) {
+    main{
+        padding:1rem!important
+        
+    }
+    .bgGradient1{
+        width:650px!important;
+    }
+    .bgGradient2 div{
+        width:700px!important;
+    }
+    main > article{
+        padding:3rem!important
+    }
+}
+
+
+
+@media screen and (max-width:920px) {
+    body{
+        margin:0!important;
+        padding:3rem 0.25rem!important;
+        position: relative;
+    }
+    main > article {
+        grid-column: span 2!important;
+    }
+
+    main > aside {
+        grid-column: span 2!important;
+        margin-bottom: 3rem!important;
+    }
+
+    
+    .bgGradient1{
+        margin-left:-400px!important;
+        height:55%!important;
+    }
+    .bgGradient2 {
+        height:50%!important;
+    }
+    .bgGradient2 div{
+        margin-right:-450px!important;
+        bottom:0!important;
+    }
+}

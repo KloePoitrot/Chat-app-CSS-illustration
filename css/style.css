@@ -57,6 +57,7 @@ Heading
 ==========================
 =========
 */
+
 .bgGradient1{
     position: absolute;
     top:0;
@@ -74,12 +75,15 @@ Heading
     right:0;
     z-index:-1;
     height:90%;
+    margin:0;
     overflow: hidden;
 }
 .bgGradient2 div{
+    bottom:0;
+    right:0;
     height:100%;
     width:800px;
-    margin-right:-300px;
+    margin-right:-400px;
     margin-top:auto;
     margin-bottom:0;
     background: #F9F4FA;
