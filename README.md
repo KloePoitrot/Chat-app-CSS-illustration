@@ -9,6 +9,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -29,4 +30,9 @@ Users should be able to:
 
 ### What I learned
 
-TBA
+- How to create background with pure css
+- How to create a chat layout with flex
+- How to create a phone props
+
+### Useful resources
+- [Gradiant generator](https://cssgradient.io)

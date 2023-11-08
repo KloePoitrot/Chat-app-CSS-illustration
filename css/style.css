@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 @import url('phone.css');
-@import url('background.css');
+@import url('responsive.css');
 
 *{
     margin:0;
@@ -30,7 +30,7 @@ main > aside{
 main > article{
     order:2;
     margin:auto;
-    padding:10rem
+    padding:9rem
 }
 h1{
     font-size:3rem;
@@ -41,4 +41,47 @@ h1{
 main > article p {
     color:hsl(270, 7%, 64%);
     line-height: 1.75rem;
+}
+
+
+
+
+
+
+
+
+/* 
+=========
+==========================
+Heading 
+==========================
+=========
+*/
+.bgGradient1{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    height:90%;
+    width:800px;
+    margin-left:-300px;
+    background: linear-gradient(50deg, hsl(264, 100%, 61%) 0%, hsl(293, 100%, 63%) 100%);
+    border-radius:0 0 100rem 100rem;
+}
+.bgGradient2{
+    position: absolute;
+    bottom:0;
+    right:0;
+    z-index:-1;
+    height:90%;
+    overflow: hidden;
+}
+.bgGradient2 div{
+    height:100%;
+    width:800px;
+    margin-right:-300px;
+    margin-top:auto;
+    margin-bottom:0;
+    background: #F9F4FA;
+    border-radius:100rem 100rem 0 0;
 }

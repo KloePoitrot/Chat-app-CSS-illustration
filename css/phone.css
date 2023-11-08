@@ -101,8 +101,8 @@ Content
 */
 .chat > div {
     padding:.75rem;
-    min-height:500px;
-    max-height:500px;
+    min-height:520px;
+    max-height:520px;
     overflow: auto;
 }
 
