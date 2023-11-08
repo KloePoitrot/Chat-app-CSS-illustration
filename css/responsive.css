@@ -6,10 +6,9 @@
 }
 
 @media screen and (max-width:1285px) {
-    main{
-        padding:1rem!important
-        
-    }
+body{
+    padding-left:1rem!important;
+}
     .bgGradient1{
         width:650px!important;
     }
@@ -26,7 +25,7 @@
 @media screen and (max-width:920px) {
     body{
         margin:0!important;
-        padding:3rem 0.25rem!important;
+        padding:3rem 0.5rem!important;
         position: relative;
     }
     main > article {
@@ -49,5 +48,10 @@
     .bgGradient2 div{
         margin-right:-450px!important;
         bottom:0!important;
+    }
+
+    aside{
+        max-width: 300px;
+        min-width: 300px;
     }
 }
